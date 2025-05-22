@@ -1,6 +1,7 @@
 # Cancer-ML
 
-##🦠 Breast Cancer Data Set
+
+## Notes on the Data Set:
 
 **This dataset contains the characteristics of patients diagnosed with cancer. The dataset contains a unique ID for each patient, the type of cancer (diagnosis), the visual characteristics of the cancer and the average values of these characteristics.**
 
@@ -19,21 +20,3 @@ Other features contain specific ranges of average values of the features of the 
 Each of these features is mapped to a table containing the number of values in a given range. You can examine the Chart Tables
 
 **Each sample contains the patient's unique ID, the cancer diagnosis and the average values of the cancer's visual characteristics.**
-
-**Such a dataset can be used to train or test models and algorithms used to make cancer diagnoses. Understanding and analyzing the dataset can contribute to the improvement of cancer-related visual features and diagnosis.**
-
-##✨ Examples of Projects that can be done with the Data Set
-
-**Logistic Regression**: This algorithm can be used effectively for binary classification problems. In this dataset, logistic regression may be an appropriate choice since there are "Malignant" (benign) and "Benign" (malignant) classes. It can be used to predict cancer type with the visual features in the dataset.
-
-**K-Nearest Neighbors (KNN)**: KNN classifies an example by looking at the k closest examples around it. This algorithm assumes that patients with similar characteristics tend to have similar types of cancer. KNN can be used for cancer diagnosis by taking into account neighborhood relationships in the data set.
-
-**Support Vector Machines (SVM)**: SVM is effective for classification tasks, especially for two-class problems. Focusing on the clear separation of classes in the dataset, SVM is a powerful algorithm that can be used for cancer diagnosis.
-
-##Data Set Related Training Notebooks 😊 ("I Recommend You Review")
-
-**K-NN Project**: https://www.kaggle.com/code/erdemtaha/prediction-cancer-data-with-k-nn-95
-
-**Logistic Regressüon**: https://www.kaggle.com/code/erdemtaha/cancer-prediction-96-5-with-logistic-regression
-
-
